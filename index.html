@@ -3,45 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Zach Kennedy - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Zach Kennedy</h1>
-        <p>Email: <a href="mailto:zachariahckennedy@lewisu.edu">zachariahckennedy@lewisu.edu</a></p>
-        <p>Discord: zkennedy215656</p>
-        <img src="me.png" alt="Zach Kennedy Photo" style="width:300px">
+<body id="top">
+    <header class="header-container">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Zach Kennedy</h1>
+                <p>Email: <a href="mailto:zachariahckennedy@lewisu.edu">zachariahckennedy@lewisu.edu</a></p>
+                <p>Discord: <em>zkennedy215656</em></p>
+            </div>
+            <div class="header-image">
+                <img src="me.png" alt="Zach Kennedy Photo">
+            </div>
+        </div>
     </header>
     <nav>
-        <!--Empty Navigation Bar-->
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#course-goals">Course Goals</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#fun-fact">Fun Fact</a></li>
+        </ul>
     </nav>
-    <main>
-        <section>
+    <main class="main-container">
+        <section id="introduction" class="content-section">
             <h2>Introduction</h2>
-            <p> My name is Zach Kennedy and I'm a senior at Lewis, in my last semester. I am working on completing my degree in computer science and have applied for the cybersecurity masters program here at Lewis with hopes on beginning in the fall after completing my bachelors. I currently work in IT for the State of Illinois.</p>
+            <p>
+                My name is Zach Kennedy and I'm a senior at Lewis, in my last semester. I am working on completing my degree in computer science and have applied for the cybersecurity masters program here at Lewis with hopes on beginning in the fall after completing my bachelors. I currently work in IT for the State of Illinois. 
+            </p>
         </section>
-        <section>
+        <section id="course-goals" class="content-section">
             <h2>Course Goals</h2>
-            <ul>
-                <li>Get more comfortable and accustomed to web programming</li>
-                <li>Improve coding knowledge and efficiency</li>
-                <li>Add new skills to toolset</li>
-                <li>Complete content to add to personal portfolio</li>
-            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Course Goal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Get more comfortable and accustomed to web programming</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Improve coding knowledge and efficiency</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Add new skills to toolset</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Complete content to add to personal portfolio</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-        <section>
+        <section id="hobbies" class="content-section">
             <h2>Hobbies</h2>
             <ul>
-                <li><a href="https://www.xbox.com/en-US/xbox-game-pass">Playing video games</a></li>
-                <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwixjq-yhMCNAxX-AHkGHVaHETMQFnoECA0QAQ&url=https%3A%2F%2Ftv.youtube.com%2Fwelcome%2F&usg=AOvVaw2p3p48Y3Jhcmwavj4lSAbs&opi=89978449">Watching movies and TV shows</a></li>
+                <li>
+                    <a href="https://www.xbox.com/en-US/xbox-game-pass" target="blank" rel="noopener">
+                        Playing video games
+                    </a>
+                </li>
+                <li>
+                    <a href="https://tv.youtube.com/" target="_blank" rel="noopener">
+                        Watching movies &amp; TV shows
+                    </a>
+                </li>
             </ul>
         </section>
-        <section>
+        <section id="fun-fact" class="content-section">
             <h2>Fun Fact</h2>
             <p>My wife and I had our first child in July of last year.</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Zach Kennedy. All rights reserved.</p>
+        <p>&copy; 2025 Zach Kennedy</p>
     </footer>
 </body>
 </html>
