@@ -24,7 +24,7 @@ The portfolio includes:
 
 DEMO
 The live, deployed version can be viewed here:
-https://<your-azure-app-name>.azurestaticapps.net
+https://black-moss-027f8fe10.6.azurestaticapps.net/
 
 FILES INCLUDED:
 - LICENSE: Contains the Apache License 2.0 for this project.
